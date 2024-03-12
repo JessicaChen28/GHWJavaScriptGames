@@ -16,11 +16,6 @@
     timer = setTimeout(drawAnimation, 17);
     document.querySelector("canvas")
         .addEventListener("click", playerClick, false);
-
-    const canvas = document.querySelector("canvas");
-    canvas.addEventListener("click", playerClick, false);
-
-        
     var displays = document.querySelectorAll("strong");
     scoreDisplay = displays[0];  
     missesDisplay = displays[1]; 
